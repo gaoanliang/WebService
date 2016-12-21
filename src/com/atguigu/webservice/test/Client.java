@@ -11,6 +11,7 @@ public class Client {
 		WebService2 create = (WebService2) factoryBean.create();
 		String sayhello = create.sayhello("李坤", 100);
 		System.out.println(sayhello);
+		System.out.println(o);
 	}
 
 }
